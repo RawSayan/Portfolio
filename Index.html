@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio_Website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="about.css">
+
+    <link rel="stylesheet" href="services.css">
+
+    <link rel="stylesheet" href="portfolio.css">
+
+    <link rel="stylesheet" href="contact.css">
+
+    <link rel="stylesheet" href="responsive.css">
+
+    <script src="https://kit.fontawesome.com/e9199b368f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- ------------------------HEADER--------------------------- -->
+
+
+
+    <div id="header">
+
+        <div class="container">
+
+            <header>
+
+                <nav>
+
+                    <div class="left">
+
+                        <p> Sayan</p>
+
+                    </div>
+
+                    <div class="right">
+
+                        <ul id="sidemenu">
+
+                            <li><a href="#header">Home</a>
+
+                            <li><a href="#about">About</a>
+
+                            <li><a href="#services">Services</a>
+
+                            <li><a href="#portfolio">Projects</a>
+
+                            <li><a href="#contact">Contact Me</a>
+
+                            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                        </ul>
+
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+                    </div>
+
+                </nav>
+
+            </header>
+
+            <div class="leftsection">
+
+                <p class="work"> Web Developer </p>
+
+                <h1 class="sss"> Hi , I am</h1>
+
+                <h1 class="name"> Sayan Mondal</h1>
+
+                <span id="element"></span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- -------------ABOUT----------------- -->
+
+    <div id="about">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="about-col-1">
+
+                    <img src="user.png">
+
+                </div>
+
+                <div class="about-col-2">
+
+                    <h1 class="abme">About Me</h1>
+
+                    <p>nile</p>
+
+                    <div class="tab-titles">
+
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+
+                        <ul>
+
+                            <li><span>UI/UX</span><br>Web/App interfaces</li>
+
+                            <li><span>Web Development</span><br>Web App Development</li>
+
+                            <li><span>App Development</span><br>Android & Ios App Development</li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+
+                        <ul>
+
+                            <li><span>2025</span><br>Web Designing</li>
+
+                            <li><span>2026</span><br>App Development</li>
+
+                            <li><span>2028</span><br>Core Web</li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-contents" id="education">
+
+                        <ul>
+
+                            <li><span>
+
+                                    2021
+
+                                </span><br>10<sup>th</sup> From J.A.V</li>
+
+                            <li><span>2023</span><br>
+
+                                12<sup>th</sup> From J.A.V</li>
+
+                            <li><span>2025</span><br>
+
+                                Currently a Second Year</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ------------------------SERVICES------------------- -->
+
+    <div id="services">
+
+        <div class="container">
+
+            <h1 class="Abme">My Services</h1>
+
+            <div class="services-list">
+
+                <div>
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <h2>Web Design</h2>
+
+                    <p>Nil</p>
+
+                    <a href="#">Learn More</a>
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+
+                    <h2>UI/UX Design</h2>
+
+                    <p>nil</p>
+
+                    <a href="#">Learn More</a>
+
+                </div>
+
+                <div>
+
+                    <i class="fa-brands fa-app-store"></i>
+
+                    <h2>App Design</h2>
+
+                    <p>nil</p>
+
+                    <a href="#">Learn More</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- --------------------portfolio------------------- -->
+
+    <div id="portfolio">
+
+        <div class="container">
+
+            <h1 class="abme">My Works</h1>
+
+            <div class="work-list">
+
+                <div class="work">
+
+                    <img src="uiux-section.avif">
+
+                    <div class="layer">
+
+                        <h3>Creative Designs</h3>
+
+                        <p>Don't worry, my Designs will surely blow up your mind.
+
+                            Make sure to check it out.
+
+                        </p>
+
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+
+                </div>
+
+                <div class="work">
+
+                    <img src="web-section.avif">
+
+                    <div class="layer">
+
+                        <h3>Web Applications</h3>
+
+                        <p>I have built several website's which works very beautifuly.
+
+                            Want one? Just contact me.
+
+                        </p>
+
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+
+                </div>
+
+                <div class="work">
+
+                    <img src="app-section.avif">
+
+                    <div class="layer">
+
+                        <h3>Social Media App</h3>
+
+                        <p>This app connects you with a different world of apps.
+
+                            Download it from play store.
+
+                        </p>
+
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="#" class="btn">See More</a>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- --------------------contact------------------- -->
+
+    <div id="contact">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="contact-left">
+
+                    <h1 class="abme"> Contact Me</h1>
+
+                    <p> <i class="fa-solid fa-paper-plane"></i> sayan083456@gmail.com</p>
+
+                    <p> <i class="fa-solid fa-phone"></i>1234567890</p>
+
+                    <div class="social-icons">
+
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+
+                        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+
+                        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+
+                    <a href="#" view class="btn btn2">Download CV</a>
+
+                </div>
+
+                <div class="contact-right">
+
+                    <form>
+
+                        <input type="text" name="name" placeholder="Your Name" required>
+
+                        <input type="email" name="email" placeholder="Your Email" required>
+
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+
+                        <button class="btn btn2" type="Submit">Submit</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            <p>Copyright &copy; Sayan. Made with <i class="fa-brands fa-slack"></i> FUN</p>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+
+
+                                                   </html>
