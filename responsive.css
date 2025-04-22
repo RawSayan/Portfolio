@@ -1,0 +1,80 @@
+.right .fa-solid {
+    display: none;
+}
+
+@media only screen and (max-width:600px) {
+    #header {
+        background-attachment: scroll;
+    }
+
+    .leftsection p {
+        margin-top: 280px;
+        font-size: 20px;
+    }
+
+    .leftsection h1 {
+        font-size: 40px;
+    }
+
+    #element {
+        font-size: 40px;
+    }
+    #sidemenu{
+        display: flex;
+        flex-direction: column;
+        gap: 0.01rem;
+        
+    }
+   
+    .right .fa-solid {
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .right ul {
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        cursor: pointer;
+        transition: right 0.5s;
+    }
+
+    .right ul li {
+        display: block;
+        margin: 25px;
+    }
+    .right ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .abme{
+        font-size: 40px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 90%;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+}
